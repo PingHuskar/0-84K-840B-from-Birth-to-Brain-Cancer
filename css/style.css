@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sriracha", sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.container #cell84000 {
+  position: absolute;
+  top: 20vh;
+  left: 60vw;
+}
+.container #cell840000000000 {
+  position: absolute;
+  bottom: 20vh;
+  right: 60vw;
+}
+.container .app {
+  margin: 5vh 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+}
+.container .app h1 {
+  -webkit-text-decoration: double underline;
+          text-decoration: double underline;
+}
+.container .app .form {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  justify-content: space-around;
+  margin: 3vh 0;
+}
+.container .app .form span {
+  font-weight: bold;
+}
+.container .app hr {
+  border: 1px solid red;
+  width: 90%;
+}
+.container .app .interface {
+  height: 70vh;
+  width: 80%;
+}
+.container .app .interface .cellsFromDate {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  padding-top: 3%;
+}
+.container .app .interface .cellsFromDate .output {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-top: 5%;
+  width: 100%;
+}
+.container .app .interface .cellsFromDate .output div {
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: center;
+  line-height: 3vh;
+}
+.container .app .interface .cellsFromDate .output div span {
+  margin: 2% 0;
+}
+.container .app .interface .cellsFromDate .output div span:first-child {
+  margin-top: 2vh;
+}
+.container .app .interface .cellsFromDate .output div span:first-child::before {
+  content: "scale";
+}
+.container .app .interface .cellsFromDate .output div span:last-child {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.container .app .interface .cellsFromDate .output div span:last-child::after {
+  content: " เซลล์";
+}
+.container .app .interface .dateFromCells {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  padding-top: 3%;
+}
+.container .app .interface .dateFromCells #customCell {
+  text-align: right;
+}
+.container .app .interface .dateFromCells .output {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-top: 5%;
+  width: 100%;
+}
+.container .app .interface .dateFromCells .output div {
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: center;
+  justify-content: center;
+  line-height: 3vh;
+}
+.container .app .interface .dateFromCells .output div span {
+  margin: 2% 0;
+}
+.container .app .interface .dateFromCells .output div span:first-child {
+  margin-top: 2vh;
+}
+.container .app .interface .dateFromCells .output div span:first-child::before {
+  content: "scale";
+}
+.container .app .interface .dateFromCells .output div span:last-child {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.container .doc {
+  position: absolute;
+  width: 100%;
+  bottom: 5vh;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+.container .doc a {
+  text-decoration: none;
+  color: #000;
+  font-style: oblique;
+}/*# sourceMappingURL=style.css.map */
